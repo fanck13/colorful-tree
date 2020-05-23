@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "type": "shell",
+        "label": "Build",
+        "command": "cd ${workspaceFolder} && make",
+      },
+      {
+        "type": "shell",
+        "label": "Clean",
+        "command": "cd ${workspaceFolder} && make clean",
+      }
+    ]
+  }

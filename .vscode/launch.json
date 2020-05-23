@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "debug color tree",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/out/colorful_tree",
+        "args": ["-p","/mnt/d/colorful-tree/test_folder"],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "preLaunchTask": "Build",
+        "miDebuggerPath": "/usr/bin/gdb"
+      },
+      {
+        "name": "debug color tree test",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/out/colorful_tree_test",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "preLaunchTask": "Build",
+        "miDebuggerPath": "/usr/bin/gdb"
+      }
+    ]
+  }

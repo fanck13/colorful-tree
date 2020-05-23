@@ -1,0 +1,5 @@
+*.out
+*.o
+colorful_tree
+colorful_tree_test
+test_folder/
